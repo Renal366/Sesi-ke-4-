@@ -1,0 +1,11 @@
+print("Program Menghitung Luas dan Keliling Segitiga")
+sisi_a = float(input("Masukkan panjang sisi a: "))
+sisi_b = float(input("Masukkan panjang sisi b: "))
+sisi_c = float(input("Masukkan panjang sisi c: "))
+
+setengah_keliling = (sisi_a + sisi_b + sisi_c) / 2
+luas_segitiga = (setengah_keliling * (setengah_keliling - sisi_a) * (setengah_keliling - sisi_b) * (setengah_keliling - sisi_c)) ** 0.5
+
+keliling_segitiga = sisi_a + sisi_b + sisi_c
+print("Luas segitiga =", luas_segitiga)
+print("Keliling segitiga =", keliling_segitiga)
