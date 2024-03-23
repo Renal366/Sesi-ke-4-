@@ -1,0 +1,14 @@
+print(" Meminta 3 input buah Bilangan, menampilkan Bilangan Terkecil")
+
+# Meminta input dari tiga bilangan
+bil1 = int(input("Masukkan Bilangan 1: "))
+bil2 = int(input("Masukkan Bilangan 2: "))
+bil3 = int(input("Masukkan Bilangan 3: "))
+
+# Mencari nilai terkecil
+if bil1 <= bil2 and bil1 <= bil3:
+    print("Bilangan terkecil adalah:", bil1)
+elif bil2 <= bil1 and bil2 <= bil3:
+    print("Bilangan terkecil adalah:", bil2)
+else:
+    print("Bilangan terkecil adalah:", bil3)
