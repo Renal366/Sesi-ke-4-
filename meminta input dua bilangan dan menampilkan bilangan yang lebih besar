@@ -1,0 +1,11 @@
+print("Bilangan yang lebih besar atau semua bilangan sama besar") 
+bil1 = int(input("Masukkan Bilangan 1: "))
+bil2 = int(input("Masukkan Bilangan 2: "))
+bil3 = int(input("Masukkan Bilangan 3: "))
+
+if bil1 == bil2 == bil3:
+    print("Semua bilangan sama besar.")
+elif bil1 == bil2 or bil1 == bil3 or bil2 == bil3:
+    print("Dua bilangan lebih besar, dari yang lain.")
+else:
+    print("Atau semua bilangan sama besar.")
