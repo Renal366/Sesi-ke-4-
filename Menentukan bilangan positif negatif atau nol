@@ -1,0 +1,12 @@
+print("Menentukan Bilangan positif,negatif atau nol")
+bilpositif = int(input("Masukkan sebuah bilangan positif: "))
+bilnegatif = int(input("masukan bilangan negatif: "))
+bilnol = int(input("masukan nol:"))
+
+if bilpositif  and bilnegatif > 0:
+    print("Bilangan tersebut adalah bilangan positif.")
+elif bilnegatif and bilpositif< 0:
+    print("Bilangan tersebut adalah bilangan negatif.")
+else: 
+    bilnol and bilnegatif and bilpositif 
+    print("Bilangan tersebut adalah nol.")
